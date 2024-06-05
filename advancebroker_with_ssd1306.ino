@@ -57,8 +57,8 @@ void setup()
     display.setTextColor(WHITE); //Define cor do texto para branco
     display.setTextSize(1); //Define tamanho do texto
     display.clearDisplay(); // Limpa display
-    const char* ssid = "WANDERSON";         // SSID da rede wi-fi local
-    const char* password = "GoV#0512"; // Password da rede
+    const char* ssid = "net-work";         // SSID da rede wi-fi local
+    const char* password = "passwd"; // Password da rede
     WiFi.begin(ssid, password); // Solicita conexão 
     while (WiFi.status() != WL_CONNECTED) { // Fica em loop até a conexão
         delay(1000);

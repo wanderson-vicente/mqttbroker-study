@@ -30,4 +30,4 @@ A memória RAM é monitorada e exibida no display OLED a cada 1 segundo.
 ## Autor
 Wanderson Vicente
 Data
-03/07/2024
+03/06/2024
